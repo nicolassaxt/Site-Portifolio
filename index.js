@@ -1,5 +1,4 @@
 const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
 
 let imgx = 0;
 
