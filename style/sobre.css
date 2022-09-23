@@ -43,10 +43,4 @@
     .sobre__titulo{
         text-align: left;
     }
-
-    .sobre__texto--divisao{
-        border-bottom: 1px solid var(--branco);
-
-        padding-bottom: 1.5rem;
-    }
 }
