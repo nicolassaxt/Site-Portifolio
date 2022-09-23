@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas - Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/6ca4718890.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/cabecalho.css">
+    <link rel="stylesheet" href="style/rodape.css">
+    <link rel="stylesheet" href="style/sobre.css">
+    <link rel="stylesheet" href="style/projetos.css">
+</head>
+<body>
+    <header class="container cabecalho" id="cabecalho">
+        <div class="cabecalho__carrossel">
+            <div class="cabecalho__box" id="img">
+                <img src="img/logo-nicolas-amarelo-cyber.png" alt="Logo Nicolas" class="cabecalho__logo">
+                <img src="img/logo-dev.png" alt="Logo Nicolas" class="cabecalho__logo">
+                <img src="img/logo-nicolas-branco.png" alt="Logo Nicolas" class="cabecalho__logo">
+                <img src="img/logo-dev-branco.png" alt="Logo Nicolas" class="cabecalho__logo">
+            </div>
+        </div>
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="#">Sobre</a></li>
+                <li class="cabecalho__link"><a href="#projetos">Projetos</a></li>
+                <li class="cabecalho__link"><a href="#contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container sobre">
+            <div class="sobre__conteudo">
+                <h1 class="sobre__titulo">Sobre mim</h1>
+                <p class="sobre__texto">
+                    Meu nome é Nicolas Brasiliano dos Santos Peixoto, sou de Pernambuco, tenho 25 anos e me formei em Sistemas de Informação e procuro conquistar minha vaga como desenvolvedor. 
+                    Gosto de desenvolver, criar projetos, desenvolver projetos em bootcamps e sempre estar me atualizando e aperfeiçoando. 
+                    Tenho uma grande vontade de aprender, me atualizar, procurando tirar dúvidas e solucionar problemas. 
+                </p>
+            </div>
+            <div class="sobre__img">
+                <img src="img/img-sobreMim.jpg" alt="foto de Nicolas" class="sobre__img">
+            </div>       
+        </section>
+        <section class="container projeto" id="projetos"> 
+            <div class="linha"></div>
+            <h2 class="projeto__titulo">Projetos</h2>
+            <p class="projeto__texto">Acompanhe todos os projetos no GitHub</p>
+
+            <a href="https://github.com/nicolassaxt?tab=repositories&q=&type=&language=java&sort=" target="_blank">
+                <figure class="projeto__painel">
+                    <figcaption class="projeto__painel-texto">Java</figcaption>
+                    <img src="img/Java-exemplo.png" alt="Painel do post sobre criação de logotipo" class="projeto__painel-imagem">
+                </figure>
+            </a>
+            <a href="https://github.com/nicolassaxt?tab=repositories&q=&type=&language=css&sort=" target="_blank">
+                <figure class="projeto__painel">
+                    <figcaption class="projeto__painel-texto">HTML e CSS</figcaption>
+                    <img src="img/projeto-em-HtmleCss.png" alt="Painel do post sobre criação de logotipo" class="projeto__painel-imagem">
+                </figure>
+            </a>
+            <a href="https://github.com/nicolassaxt?tab=repositories&q=&type=&language=javascript&sort=" target="_blank">
+                <figure class="projeto__painel">
+                    <figcaption class="projeto__painel-texto">JavaScript</figcaption>
+                    <img src="img/projeto-JavaScript.png" alt="Painel do post sobre criação de logotipo" class="projeto__painel-imagem">
+                </figure>
+            </a>
+            <a href="https://github.com/nicolassaxt?tab=repositories&q=&type=&language=typescript&sort=" target="_blank">
+                <figure class="projeto__painel">
+                    <figcaption class="projeto__painel-texto">Angular</figcaption>
+                    <img src="img/projeto-angular.png" alt="Painel do post sobre criação de logotipo" class="projeto__painel-imagem">
+                </figure>
+            </a>
+        </section>
+    </main>
+    <footer class="container rodape">
+
+        <a href="#cabecalho"><img src="img/logo-nicolas-branco.png" alt="Logo Nicolas" class="rodape__logo"></a>
+        <a href="mailto:nicolas97ti@gmail.com"><p class="rodape__texto">Email: nicolas97ti@gmail.com</p></a>
+        <ul class="rodape__social" id="contatos">
+            <li>
+                <a href="https://www.linkedin.com/in/nicolas-brasiliano-850610182/" class="rodape__midia" target="_blank"><i class="fa-brands fa-linkedin rodape__icone"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/nicolasbrpeixoto/" class="rodape__midia" target="_blank"><i class="fa-brands fa-instagram rodape__icone"></i></a>
+            </li>
+            <li>
+                <a href="https://wa.me/5581995248637?text=Olá%20Nicolas!%20Eu%20tenho%20interesse%20em%20seus%20projetos." class="rodape__midia" target="_blank"><i class="fa-brands fa-whatsapp rodape__icone"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
